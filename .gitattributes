@@ -1,2 +1,5 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
 *.pkl filter=lfs diff=lfs merge=lfs -text
+datasets/best_model.pkl filter=lfs diff=lfs merge=lfs -text
+datasets/train_set.csv filter=lfs diff=lfs merge=lfs -text
+datasets/test_set.csv filter=lfs diff=lfs merge=lfs -text
