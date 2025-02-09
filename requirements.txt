@@ -1,0 +1,10 @@
+#Librerias
+#necesarias para python
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+lightgbm
+joblib
