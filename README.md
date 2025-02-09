@@ -58,7 +58,7 @@ TestBikes.git/
 
 - **Clonar el Repositorio**: git clone https://github.com/maluramos72/TestBikes.git
 - **Construye la imagen de Docker**: docker build -t testbikes .
-- **Construye la imagen de Docker**: docker run --rm -it testbikes
+- **Ejecuta la imagen de Docker**: docker run --rm -it testbikes
 
 ## Cómo Usar
 
