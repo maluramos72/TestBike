@@ -11,12 +11,10 @@ El modelo predice el tipo de abonado a partir de varias características de los 
   - numpy
   - matplotlib
   - seaborn
-  - os
   - sklearn
   - xgboost
   - lightgbm
   - joblib
-  - warnings
 
 ## Estructura del Proyecto
 
@@ -40,6 +38,10 @@ TestBikes.git/
 │── diagrama/
 │   ├── Diagrama Pipeline.pdf
 │── README.md
+│── requiments.txt
+│── Dockerfile
+│── .dockerignore
+
 
 - **main.py**: Archivo principal que ejecuta el flujo del proyecto.
 - **data_processing.py**: Contiene funciones para limpiar, procesar y preprocesar los datos.
@@ -49,7 +51,14 @@ TestBikes.git/
 - **datsets/**: Carpeta con los archivos de datos y modelos preentrenados. (No Compartidos en el github por el tamaño de los archivos).
 - **docs/**: Carpeta con el archivo proyecto_testBikes.pdf (archivo de presentación del proyecto)
 - **diagrama/**: Carpeta con el archivo diagrama pipeline.pdf (diagrama del proyecto)
+- **requiments.txt**: Archivo de librerias requeridas
+- **Dockerfile**: Archivo docker
 
+## Primeros pasos
+
+- **Clonar el Repositorio**: git clone https://github.com/maluramos72/TestBikes.git
+- **Construye la imagen de Docker**: bash docker build -t testbikes .
+- **Construye la imagen de Docker**: bash docker run --rm -it testbikes
 
 ## Cómo Usar
 
@@ -57,7 +66,7 @@ NOTA. Asegúrate de tener todos los archivos necesarios:
    - `test_set.csv`: Conjunto de datos de prueba.
    - `train_set.csv`: Conjunto de datos de entrenamiento.
      
-###Se tienen dos opciones.
+## Se tienen dos opciones.
 1. Como opción recomendada primero ejecutar TestBikes.ipynb en google colabs o jupiter
        * Esto genera los archivos preentrenados
        * Y el archivo "analytics-bike.csv" con las predicciones.
