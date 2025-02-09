@@ -57,6 +57,7 @@ TestBikes.git/
 ## Primeros pasos
 
 - **Clonar el Repositorio**: git clone https://github.com/maluramos72/TestBike.git
+- **Cambiarte al directorio testbikes**: cd testbikes
 - **Construye la imagen de Docker**: docker build -t testbikes .
 - **Ejecuta la imagen de Docker**: docker run --rm -it testbikes
 
