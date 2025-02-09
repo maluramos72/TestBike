@@ -56,13 +56,13 @@ TestBikes.git/
 NOTA. Asegúrate de tener todos los archivos necesarios:
    - `test_set.csv`: Conjunto de datos de prueba.
    - `train_set.csv`: Conjunto de datos de entrenamiento.
-   - 
+     
 ###Se tienen dos opciones.
 1. Como opción recomendada primero ejecutar TestBikes.ipynb en google colabs o jupiter
        * Esto genera los archivos preentrenados
        * Y el archivo "analytics-bike.csv" con las predicciones.
 
-3. Como opción ejecutar desde VisualStudio.
+2. Como opción ejecutar desde VisualStudio.
     a). Asegúrate de tener todos los archivos necesarios:
          - `test_clean.csv`: Conjunto de datos de prueba clean.
          - `train_clean.csv`: Conjunto de datos de entrenamiento clean.
