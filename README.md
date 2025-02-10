@@ -1,7 +1,7 @@
 # TestBikes
 
-Este es un proyecto de predicción de tipos de abonados de bicicletas utilizando datos de viaje. 
-El modelo predice el tipo de abonado a partir de varias características de los viajes de bicicletas.
+Este es un proyecto de predicción de los tipos de usuarios de un sistema de bicicletas compartidas. 
+El modelo identifica si un usuario es frecuente o un usuario ocasional, basándose en diversas características de los viajes.
 
 ## Requisitos
 
